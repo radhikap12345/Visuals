@@ -1,0 +1,95 @@
+/* myStyle.css */
+body {
+ background-color: #fffff;
+ color: black;
+ font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+h3 {
+ color: #333333;
+ text-align: center;
+ font: Comic Neue;
+ font-weight: 400;
+ font-family: 'Comic Neue', cursive;
+}
+p {
+ background-color: #FFFF33;
+ color: #333300;
+ text-align: right;
+ border: 3px groove #FFFF33;
+}
+
+
+#topNavigationBar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 60px 10px;
+  transition: 2s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left:0;
+  z-index: 99;
+  background-image: linear-gradient(90deg, #142540, #0B1423);
+
+  
+}
+
+#topNavigationBar a {
+  float: left;
+  color: #FFE38B;
+  text-align: center;
+  transition:0s;
+  padding: 20px 0px;
+  padding-right:30px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#topNavigationBar #logo {
+  transition: 0.4s;
+  padding: 10px 40px;
+}
+
+#topNavigationBar a:hover {
+ 
+  color:grey; 
+}
+
+#topNavigationBar a.active {
+  color: #FFC000;
+}
+
+#topNavigationBar-right {
+  float: right;
+  vertical-align:top;
+
+}
+
+@media screen and (max-width: 500px) {
+  #topNavigationBar {
+    padding: 1px 10px !important;
+  }
+  #topNavigationBar a {
+    float: none;
+	font-size:12px;
+   
+    text-align: left;
+	padding: 10px 10px;
+  }
+  #topNavigationBar-right {
+    float: none;
+  }
+  #topNavigationBar a.active {
+  background-color: #555;
+  color: #FFC000;
+  }
+}
+
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+}
