@@ -1,7 +1,7 @@
 /* myStyle.css */
 body {
  background-color: #fffff;
- color: black;
+ color: #111111;
  font-family: 'Nunito', sans-serif;
  font-weight: 400;
  font-size:16px;
@@ -126,11 +126,11 @@ div.contentFront a:hover{
 }
 
 div.Visual1{
-	width:48%;
-	float:right;
+	width:45%;
+	float:left;
 	min-width:350px;
 	text-align:center;
-
+	padding:15px;
 	
 }
 
