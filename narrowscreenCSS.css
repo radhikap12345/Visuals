@@ -4,11 +4,12 @@ body {
  color: black;
  font-family: 'Nunito', sans-serif;
  font-weight: 400;
- 
+ font-size:13px;
 }
 
 body a{
 	text-decoration:none;
+	outline:0;
 }
 
 h3 {
@@ -90,7 +91,7 @@ img.geoPlots:hover{
 
 #topNavigationBar-right {
   float: none;
-  vertical-align:top;
+  vertical-align:center;
 
 }
 
