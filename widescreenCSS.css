@@ -36,6 +36,7 @@ img.geoPlots {
   min-width:300px;
   height: auto;
   padding: 0px;
+  border-radius: 8px;
   
 }
 
@@ -124,11 +125,18 @@ div.Visual1{
 	width:48%;
 	float:right;
 	min-width:350px;
+	text-align:center;
+
+	
 }
 
 div.Visual1 a{
 	target-name:new;
 	target-new:tab;
+}
+
+div.Visual1:hover{
+	border-left:3px solid #eeeeee;
 }
 
 div.bottomBar{
@@ -146,6 +154,7 @@ div.bottomBar{
   font-size:8px;
   font-weight:200;
   background-image: linear-gradient(90deg, #142540, #0B1423);
+  text-align: center;
 
 }
 	

@@ -37,10 +37,9 @@ p {
 img.geoPlots {
   width: 95%;
   height:auto;
-  min-width:300px;
   height: auto;
   padding: 0px;
-  
+  border-radius: 8px;
 }
 
 
@@ -124,11 +123,16 @@ div.Visual1{
 	width:100%;
 	float:right;
 	min-width:350px;
+	
 }
 
 div.Visual1 a{
 	target-name:new;
 	target-new:tab;
+}
+
+div.Visual1:hover{
+	border-left:3px solid #eeeeee;
 }
 
 div.bottomBar{
