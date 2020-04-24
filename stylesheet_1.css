@@ -19,6 +19,10 @@ body{
 	 font-family: 'Comic Neue', cursive;
 }
 
+a{
+	color:#FFC000; /*Dark Yellow*/
+	text-decoration:none;
+}
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -73,4 +77,8 @@ body{
 	}
 	.fill-large-page{
 		min-height:100vh;
+	}
+	
+	.row-margin{
+		padding:20px;
 	}
