@@ -73,4 +73,5 @@ body{
 	}
 	.fill-large-page{
 		min-height:100vh;
+		background:pink;
 	}
