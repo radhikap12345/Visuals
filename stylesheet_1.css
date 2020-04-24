@@ -71,3 +71,6 @@ body{
 		box-shadow: 0px 0px 3px 0 rgba(0, 0, 0, 0.2), 0px 0px 6px 0 rgba(0, 0, 0, 0.19);
 		border:2px solid #bbbbbb;
 	}
+	.fill-large-page{
+		min-height:100vh;
+	}
