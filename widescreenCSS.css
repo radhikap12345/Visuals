@@ -98,6 +98,30 @@ img.geoPlots:hover{
 
 }
 
+#topNavigationBar-right a {
+  float: left;
+  color: #FFE38B;
+  text-align: center;
+  transition:0s;
+  padding: 20px 0px;
+  padding-right:30px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#topNavigationBar-right a:hover {
+ color:grey;
+}
+
+#topNavigationBar-right a.active {
+  color: #FFC000;
+  border:none;
+  text-decoration:none;
+}
+
+
 div.sideBar{
 	background-color:#dddddd;
 	height:auto;
