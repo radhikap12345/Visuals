@@ -8,6 +8,7 @@ background-image: linear-gradient(90deg, #142540, #0B1423); /* Blue gradient
 #F4B183; /*Dark Peach
 #bbbbbb; /*Light Grey
 #BF9000; /*Darker Yellow
+#333333; /*body grey text color
 */
 
 /* Body font changes */
@@ -17,6 +18,7 @@ body{
 	 font: Comic Neue; */
 	 font-weight: 400;
 	 font-family: 'Comic Neue', cursive;
+	 color:#333333;
 }
 
 a{
