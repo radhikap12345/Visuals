@@ -55,7 +55,7 @@ a{
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
-      padding: 25px;
+      padding: 10px;
     }
 	
 	/* Background color for navigation bars*/
@@ -81,4 +81,12 @@ a{
 	
 	.row-margin{
 		padding:20px;
+	}
+	
+	.home-logo-img{
+		height:30px;
+	}
+	
+	.full-logo-img{
+		height:80px;
 	}
